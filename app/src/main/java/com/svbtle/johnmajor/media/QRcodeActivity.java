@@ -38,6 +38,7 @@ public class QRcodeActivity extends Activity {
                 if (data.hasExtra("la.droid.qr.result")) {
                     String res = data.getExtras().getString("la.droid.qr.result");
                     Toast.makeText(this, res, Toast.LENGTH_LONG).show();
+                    finish();
                 }
             } else if (resultCode == RESULT_CANCELED) {
                 // Capture cancelled
