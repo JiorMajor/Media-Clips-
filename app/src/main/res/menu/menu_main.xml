@@ -12,4 +12,6 @@
         android:orderInCategory="100" android:showAsAction="never" />
     <item android:id="@+id/action_qrcode" android:title="@string/action_qr"
         android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_smsintent" android:title="@string/action_smsintent"
+        android:orderInCategory="100" android:showAsAction="never"/>
 </menu>

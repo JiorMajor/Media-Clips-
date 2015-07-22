@@ -49,6 +49,10 @@ public class MainActivity extends Activity {
                 Intent videointent = new Intent(MainActivity.this, VideoActivity.class);
                 startActivity(videointent);
                 return true;
+            case R.id.action_smsintent:
+                Intent smsintent = new Intent(MainActivity.this, SendingSMSActivity.class);
+                startActivity(smsintent);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

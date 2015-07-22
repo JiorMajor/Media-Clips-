@@ -7,9 +7,12 @@
     <string name="action_video">Video</string>
     <string name="action_audio">Audio</string>
     <string name="action_qr">QR Code</string>
+    <string name="action_smsintent">SMS Intent</string>
     <string name="action_featurecam">Feature Camera</string>
     <string name="title_activity_qrcode">QRcodeActivity</string>
     <string name="title_activity_camera">CameraActivity</string>
     <string name="title_activity_video">VideoActivity</string>
     <string name="title_activity_audio">AudioActivity</string>
+    <string name="title_activity_sending_sms">SendingSMSActivity</string>
+    <string name="send">Send</string>
 </resources>
